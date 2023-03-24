@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.Calc-App {
+  /* text-align: center; */
+  border: 2px solid grey;
+  box-shadow: #61dafb 0px 0px 10px;
+  width: 25rem;
+  height: 35rem;
+  background-color: rgb(219, 214, 207);
+  margin: auto;
+  padding: 2rem;
+}
+
+.Calc-App-Display {
+  background-color: #eff1f5;
+  height: 4rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  margin: auto;
+  color: white;
+  border-radius: 3px;
+  /* font-size: 2rem; */
+}
+
+.Calc-App-Keypad {
+  background-color: #eff1f5;
+  height: 20rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  margin: auto;
+  color: white;
+  border-radius: 3px;
+  /* font-size: 2rem; */
+}
+
+.display-text {
+  font-size: 2rem;
+  color: black;
+  text-align: end;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
