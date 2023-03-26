@@ -17,7 +17,7 @@ function App() {
           <button className="keypad" type="button">
             %
           </button>
-          <button className="keypad" type="button">
+          <button className="keypad" id="operator" type="button">
             ÷
           </button>
           <button className="keypad" type="button">
@@ -29,7 +29,7 @@ function App() {
           <button className="keypad" type="button">
             9
           </button>
-          <button className="keypad" type="button">
+          <button className="keypad" id="operator" type="button">
             x
           </button>
           <button className="keypad" type="button">
@@ -41,7 +41,7 @@ function App() {
           <button className="keypad" type="button">
             6
           </button>
-          <button className="keypad" type="button">
+          <button className="keypad" id="operator" type="button">
             -
           </button>
           <button className="keypad" type="button">
@@ -53,7 +53,7 @@ function App() {
           <button className="keypad" type="button">
             3
           </button>
-          <button className="keypad" type="button">
+          <button className="keypad" id="operator" type="button">
             +
           </button>
         </div>
