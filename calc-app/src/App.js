@@ -56,6 +56,16 @@ function App() {
           <button className="keypad" id="operator" type="button">
             +
           </button>
+          <button className="keypad-big" type="button">
+            0
+          </button>
+          <button className="keypad" type="button">
+            .
+          </button>
+          <button className="keypad" id="operator" type="button">
+            =
+          </button>
+          
         </div>
       </div>
     </div>
