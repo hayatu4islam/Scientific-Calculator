@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <div className="Calc-App">
+        <h1>Scientific Calculator</h1>
         <div className="Calc-App-Display">
           <h1 className="display-text">{display}</h1>
         </div>
