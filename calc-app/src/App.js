@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
+// Function declaration
 function App() {
   const [display, setDisplay] = useState("0");
   // const [operator, setOperator] = useState("");
